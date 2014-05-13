@@ -140,7 +140,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".DS_Store" />
     <Content Include="about.html" />
+    <Content Include="bootstrap\.DS_Store" />
     <Content Include="bootstrap\css\bootstrap.css" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
