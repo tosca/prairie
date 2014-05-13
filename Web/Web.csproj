@@ -509,7 +509,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootstrap\.DS_Store" />
     <Content Include="bootstrap\css\.DS_Store" />
     <Content Include="bootstrap\fonts\.DS_Store" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
