@@ -140,9 +140,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".DS_Store" />
     <Content Include="about.html" />
-    <Content Include="bootstrap\.DS_Store" />
     <Content Include="bootstrap\css\bootstrap.css" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
@@ -511,21 +509,15 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootstrap\css\.DS_Store" />
-    <Content Include="bootstrap\fonts\.DS_Store" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="bootstrap\js\.DS_Store" />
-    <Content Include="fonts\.DS_Store" />
-    <Content Include="fonts\Montserrat\.DS_Store" />
     <Content Include="fonts\Montserrat\montserrat-bold-webfont.eot" />
     <Content Include="fonts\Montserrat\montserrat-bold-webfont.ttf" />
     <Content Include="fonts\Montserrat\montserrat-bold-webfont.woff" />
     <Content Include="fonts\Montserrat\montserrat-regular-webfont.eot" />
     <Content Include="fonts\Montserrat\montserrat-regular-webfont.ttf" />
     <Content Include="fonts\Montserrat\montserrat-regular-webfont.woff" />
-    <Content Include="fonts\Nexa\.DS_Store" />
     <Content Include="fonts\Nexa\nexa_bold-webfont.eot" />
     <Content Include="fonts\Nexa\nexa_bold-webfont.ttf" />
     <Content Include="fonts\Nexa\nexa_bold-webfont.woff" />
@@ -562,43 +554,15 @@
     <Content Include="fonts\OpenSans\OpenSans-SemiboldItalic-webfont.eot" />
     <Content Include="fonts\OpenSans\OpenSans-SemiboldItalic-webfont.ttf" />
     <Content Include="fonts\OpenSans\OpenSans-SemiboldItalic-webfont.woff" />
-    <Content Include="fonts\Tex\.DS_Store" />
     <Content Include="fonts\Tex\texgyreheros-bold-webfont.eot" />
     <Content Include="fonts\Tex\texgyreheros-bold-webfont.ttf" />
     <Content Include="fonts\Tex\texgyreheros-bold-webfont.woff" />
     <Content Include="fonts\Tex\texgyreheros-regular-webfont.eot" />
     <Content Include="fonts\Tex\texgyreheros-regular-webfont.ttf" />
     <Content Include="fonts\Tex\texgyreheros-regular-webfont.woff" />
-    <Content Include="images\.DS_Store" />
-    <Content Include="images\favicon\.DS_Store" />
-    <Content Include="images\gallery\.DS_Store" />
-    <Content Include="images\gallery\full\.DS_Store" />
-    <Content Include="images\grid-portfolio\.DS_Store" />
-    <Content Include="images\grid-portfolio\large\.DS_Store" />
-    <Content Include="images\grid-portfolio\thumb\.DS_Store" />
-    <Content Include="images\icons\.DS_Store" />
-    <Content Include="images\intro\.DS_Store" />
-    <Content Include="images\intro\full\.DS_Store" />
-    <Content Include="images\mediafolio\.DS_Store" />
-    <Content Include="images\mediafolio\full\.DS_Store" />
-    <Content Include="images\parallax\.DS_Store" />
-    <Content Include="images\rounded-icons\.DS_Store" />
-    <Content Include="images\rounded-icons\dark\.DS_Store" />
-    <Content Include="images\rounded-icons\white\.DS_Store" />
-    <Content Include="images\showreel\.DS_Store" />
-    <Content Include="images\social\.DS_Store" />
-    <Content Include="images\stats\.DS_Store" />
-    <Content Include="images\team\.DS_Store" />
     <Content Include="images\team\retina display - please read this.pdf" />
-    <Content Include="images\touchicon\.DS_Store" />
-    <Content Include="images\venobox\.DS_Store" />
-    <Content Include="javascripts\.DS_Store" />
-    <Content Include="less\.DS_Store" />
     <Content Include="less\color.less" />
-    <Content Include="Mail\.DS_Store" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="stylesheets\.DS_Store" />
-    <Content Include="twitter\.DS_Store" />
     <Content Include="twitter\2a16116a4467cfccff2e6ed13e372dbc.json" />
   </ItemGroup>
   <PropertyGroup>
