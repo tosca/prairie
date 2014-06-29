@@ -46,6 +46,7 @@
 	================================================== -->   
     <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
     <script type="text/javascript" src="js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="js/jflickrfeed.min.js"></script>	  
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> 
@@ -61,48 +62,31 @@
     <script type="text/javascript" src="js/jquery.flexslider.min.js"></script>     
     <script type="text/javascript" src="js/custom.min.js"></script>  
     <script type="text/javascript" src="js/main-fm.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jstwitter.js"></script> 
-    
+	<script type="text/javascript" src="js/jquery.jstwitter.js"></script>     
    
-
 <!-- IMPORTANT NOTES :
 
     Top Menu
         - Find the below line, it goes to the comment line, just do what the comment line mention
-          Set Top Menu
-          
-    Menu Color:
-        - Dark Menu - just add the class name darkMenu to the header class div and add the class darkStyle to the menu_footer div
-        - Light Menu - just remove the class name darkMenu to the header class div and add the class lightStyle to the menu_footer div
-        
-    Page Align Center  
+          Set Top Menu         
+     Page Align Center  
         - Find and remove the class name desktop_alignLeft
         - Find the below line, it goes to the comment line, just do what that comment line mention
           Center Align Page
 		- If you need to use 12 grid fixed width columns, just find and replace container-fluid to container
-        
-    Style(Color):
-        lightStyle class is used to apply the light style to the div
-        darkStyle class is used to apply the dark style to the div
-     
-     Page Style:          
-        To applied light style to the Page, just add the class name white_version to the body tag 
-        
+    Page Style:          
+        To applied light style to the Page, just add the class name white_version to the body tag         
      One page version / Separate pages version:
         To applied one page version, set onePage : true, for separate page version set onePage : false, on mainFm plugin code. 
         see the code near the comment line /* Site Main plug-in initilize */
-
 -->
-
-	<script type="text/javascript">
-			
+	<script type="text/javascript">			
 		/* Twitter initilize */
 		$(function () {
             // start jqtweet!
             JQTWEET.loadTweets();
         });	
-		
-		
+				
 		/* Initialize supersized fullscreen image gallery */
 		function superGalleryInit (){			
 			
@@ -119,12 +103,10 @@
 			});	
 			
 		}
-			
-		
+					
 		
 		$(document).ready(function(){	
-					
-			
+								
 			// Portfolio Filterable gallery project detail plug-in initialize
 			$("body").find(".portfolioPage").each(function(){
 				var mc = $(this);
@@ -160,11 +142,7 @@
 				});
 			});	
 			
-			
-			
-			
-		
-			
+						
 
 // Email submit action			
 			$("#email_submit").click(function() { 
@@ -218,18 +196,12 @@
 				return false;				
 			});	
 			
-		
-			
-
-
-				
+						
 		});		
 		
 	</script>
-
        
 </head>
-
 
 
 <body class="white_version">
@@ -270,7 +242,7 @@
         <div class="setNavType topNav container"> 
         
             <div class="logo" >
-                <a href="#!home"><img src="images/parallax/ppc-logo.png" alt="Prarie Path Consulting"></a>  <!--data-retina="yes" -->
+                <a href="#!home"><img src="images/parallax/ppc-logo.png"  alt="Prarie Path Consulting"></a>  <!--data-retina="yes" -->
             </div>
             
         	    
@@ -324,49 +296,17 @@ Page navigation - Use to Scroll the page from section to section
 <!-- Homepage  -->
 
 <div  data-id="!home" class="contentWrapper lightStyle homeSlider fullHeight  parallax"  data-src="images/background/image1.jpg" data-src-small="images/background/image1_s.jpg" >
-
-    
-	<!-- Supersized home page slider show Arrow Navigation, To position the navigation to center, just remove the centerPosition class
-    <div id="superNav" class="centerPosition" >
-        <a id="prevslide" class="load-item" ></a>
-        <a id="nextslide" class="load-item" ></a>
-        <a id="play-button"  class="load-item" ><img id="pauseplay" src="images/supersized/pause.png" alt="image text" /></a>
-    </div> -->
-    
-    
-    <!-- fullscreen slideshow animation text, See the superGalleryInit function on header area. 
-    If you need to remove the slideshow just remove the below tag and superGalleryInit function completely -->
+  
 	<div class="homepage_con" >    
               
         <!-- Homepage fullscreen slideshow Title text 1 -->
         <div class="home_slider_title1 sliderStyle1" >
             <div class="text_mask bgCaption">
                 <div class="text_hold">
-                    <img src="images/parallax/ppc-logo.jpg" />  
+                    <img src="images/parallax/ppc-banner.jpg" />  
                  </div>
             </div>
-        </div>
-         
-
-
-
-         <!-- Homepage fullscreen slideshow Title text 2 
-         <div class="home_slider_title2 sliderStyle1" >
-            <div class="text_mask bgCaption">
-                <div class="text_hold">
-                    <h1 class="large_text">Best Look in all devices</h1>
-                </div>
-            </div>
-        </div>-->
-                
-         <!-- Homepage fullscreen slideshow Title text 3 
-        <div class="home_slider_title3 sliderStyle1 " > 
-            <div class="text_mask bgCaption">
-                <div class="text_hold">
-                    <h1 class="large_text">Clean - Responsive - Retina Ready</h1>
-                </div>
-            </div>       
-        </div>-->
+        </div>  
   
     </div>
    
@@ -375,25 +315,49 @@ Page navigation - Use to Scroll the page from section to section
 
  <!-- Portfolio Page -->
               
-<div data-id="!portfolio" class="contentWrapper contactPage lightStyle fullHeight parallax removePadding" data-src="images/background/image3.jpg" data-src-small="images/background/image3_s.jpg" >
+<div data-id="!portfolio" class="contentWrapper fullHeight backGround lightStyle" >
 
-    <hr class="top_space">    
-    
-    <div class="container">     	
-        <div class="row"> 
-            <div class="span12" >
-				<h1 class="fittext3 dark_color">First Care Connects</h1>
+	<hr class="top_space">    
+     
+  <div class="container">     	
+		<div class="row">
+            <div class="span12" > 
+                <h1>featured website development</h1>
+            </div>               
+		</div>
+    </div> 
+      <div class="container">
+		<div class="row">
+            <div class="span12" > 
+                <div id="carousel" style="height:730px">                                                                               
+                 
+                    <ul>
+                       <li class="pane1">
+                        <h2 class="text_mask site-words large_text">responsive, secure, real-time data health readings </h2>
+                           <h2>    <img src="images/web-work/firstcare.jpg" />
+                              
+                            
+                      </h2> 
+
+                       </li>
+                       <li class="pane2">
+                           <h2>
+                               <img src="images/web-work/firstcare.jpg" height="730" /></h2>
+                       </li>
+                   </ul>
+                  </div>                      
+             
+              </div>
             </div>
-        </div>
-    </div>
-    <!-- Homepage fullscreen slideshow Title text 2 -->
-         <div class="home_slider_title2 sliderStyle1" >
+</div>	
+
+ <!--     <div class="home_slider_title1 sliderStyle1" >
             <div class="text_mask bgCaption">
                 <div class="work">
-                    <img src="images/portfolio/First-Care-Connects-3.jpg" /> <h1 class="large_text">Best Look in all devices</h1>
+                    <img src="images/background/image1_s.jpg" /> <h2 class="large_text">Secure real-time data readings</h2>
                 </div>
             </div>
-        </div> 
+        </div> -->
     
 	<div class="bar_content transparent bottomSpace_mini"> 
         <div class="container lightStyle" >  
@@ -411,377 +375,7 @@ Page navigation - Use to Scroll the page from section to section
 </div>
 
 
-<!-- Aboutus page -->
-
-<div data-id="!aboutus" class="contentWrapper fullHeight backGround lightStyle" >
-
-	<hr class="top_space">    
-     
-    <div class="container">     	
-		<div class="row">
-            <div class="span12" > 
-                <h1 class="fittext3 white_color">About - Creative Template</h1>
-            </div>               
-		</div>
-    </div>    
-    
-    <!-- Tab section -->
-    <div class="bar_content">
-    	<div class="container ">
-        	<div class="row">
-            	<div class="span12" > 
-                	<!-- Tab navigations -->
-                    <ul class="nav-tabs plainTab">
-                      <li class="active"><a href="#tab1_1" data-toggle="tab">We Are</a></li>
-                      <li><a href="#tab1_2" data-toggle="tab">Meet Our Team</a></li> 
-                      <li><a href="#tab1_3" data-toggle="tab">Testimonial</a></li> 
-                      <li><a href="#tab1_4" data-toggle="tab">Clients</a></li>                    
-                    </ul>
-                </div>
-            </div>
-		</div>   
-    </div>
-       
-	
-    <div class="container" >   
-        <div class="row"> 
-
-            <div class="span12" > 
-            	<!-- Tab Content -->
-                <div class="tab-content">
-                
-                	<!-- tab1_1 content -->
-                    <div class="tab-pane fade in active" id="tab1_1"> 
-                    
-                       	<div class="row-fluid ">
-                        	<div class="span12">
-                        		<h2> We Are </h2>
-                        	</div>
-                        </div> 
-                        <div class="row-fluid"> 
-                             <div class="span6">
-                                <p>Create adipiscing elit dolore magna aliquam erat volutpat. consectetuer adipiscing. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat ciam nonummy nibh euismod tlaoreet .</p>
-                            </div>
-                            <div class="span6">
-                                <p>Tincidunt sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat.</p>
-                            </div>
-                        </div>
-                        
-                    	<div class="row-fluid" >  
-                        	<div class="span12" > 
-                        		<h6><a><em>- Tom, Founder -</em></a></h6>
-                            </div>
-                            <hr class="separator_mini">
-                    	</div>
-                        
-                        <div class="row-fluid four_column text-center" >
-        
-                            <div class="span12" >
-                            
-                                <a class="part feature shake_hover" >
-                                    <div class="thumbnail shake_ele"  >
-                                        <i class="fa fa-laptop fa-5x"> </i>
-                                    </div>
-                                    <div class="bg_hover_change img-rounded-mini">
-                                        <i class="fa fa-caret-up fa-2x"> </i>
-                                        <h4>Clean & Simple</h4>
-                                        <h6><em>Hight Quality web design and Development</em></h6>
-                                    </div>
-                                </a>
-                                
-                                <a class="part feature rotating_hover">
-                                    <div class="thumbnail rotating_ele">
-                                        <i class="fa fa-cog fa-5x"> </i>
-                                    </div>
-                                    <div class="bg_hover_change img-rounded-mini">
-                                        <i class="fa fa-caret-up fa-2x"> </i>
-                                        <h4>Fully Responsive</h4>
-                                        <h6><em>Hight Quality web design and Development</em></h6>
-                                    </div>
-                                </a>
-                                
-                                <a class="part feature shake_hover">
-                                    <div class="thumbnail shake_ele">
-                                        <i class="fa fa-pencil fa-5x"> </i>
-                                    </div>
-                                    <div class="bg_hover_change img-rounded-mini">  
-                                        <i class="fa fa-caret-up fa-2x"> </i>                  	
-                                        <h4>Onepage & Normal version</h4>
-                                        <h6><em>Hight Quality web design and Development</em></h6>
-                                    </div>
-                                </a>
-                                
-                                <a class="part feature rotating_hover">
-                                    <div class="thumbnail rotating_ele">
-                                        <i class="fa fa-magic fa-5x"> </i>
-                                    </div>
-                                    <div class="bg_hover_change img-rounded-mini">
-                                        <i class="fa fa-caret-up fa-2x"> </i>
-                                        <h4>Bootstrap / Retina</h4>
-                                        <h6><em>Hight Quality web design and Development</em></h6>
-                                    </div>
-                                </a>
-                                
-                            </div>
-                        </div>
-                        
-                    </div>
-                   
-                    
-                    <!-- tab1_2 content -->
-                    <div class="tab-pane fade" id="tab1_2">
-						
-                        <div class="row-fluid">
-                        	<div class="span12">
-                        		<h2>Our Team</h2>
-                            	<hr>
-                        	</div>
-                        </div>
-                         
-                        <div class="row-fluid">
-                            <div class="team" >
-                                <div class="thumbnail" >
-                                    <img src="images/about_image1.jpg" class="img-rounded-mini" alt="image name" >                     
-                                </div> 
-                                 
-                                <h4 class="upperCase">Mark Tylor</h4>
-                                <h6><em><a>Designer & Developer</a></em></h6>
-                                <p>Lorem ipsum dolor sit amet, fras consectetuer adipiscing.</p>
-    
-                                <ul class="font_awesome">                 
-                                    <li ><a ><i class="fa fa-facebook"></i></a></li>
-                                    <li ><a ><i class="fa fa-twitter"></i></a></li>
-                                    <li ><a ><i class="fa fa-linkedin"></i></a></li>
-                                    <li ><a ><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                                <br>
-                                <hr class="separator_mini">
-                            </div>
-                            
-                            <div class="team">
-                                <div class="thumbnail" >
-                                    <img src="images/about_image2.jpg" class="img-rounded-mini" alt="image name" >                          
-                                </div> 
-                               
-                                <h4 class="upperCase">Stephen Fleming</h4>
-                                <h6><em><a>Graphic Designer</a></em></h6>
-                                <p>Lorem ipsum dolor sit amet, fras consectetuer adipiscing.</p>
-                                <ul class="font_awesome">                 
-                                    <li ><a ><i class="fa fa-facebook"></i></a></li>
-                                    <li ><a ><i class="fa fa-twitter"></i></a></li>
-                                    <li ><a ><i class="fa fa-linkedin"></i></a></li>
-                                    <li ><a ><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                                <br>
-                                <hr class="separator_mini">
-                            </div>
-                            
-                            <div class="team">
-                                <div class="thumbnail" >
-                                    <img src="images/about_image3.jpg" class="img-rounded-mini" alt="image name" >                          
-                                </div> 
-                                
-                                <h4 class="upperCase">Lisa Michale</h4>
-                                <h6><em><a>Relationship Manager</a></em></h6>
-                                <p>Lorem ipsum dolor sit amet, fras consectetuer adipiscing.</p>
-                                <ul class="font_awesome">                 
-                                    <li ><a ><i class="fa fa-facebook"></i></a></li>
-                                    <li ><a ><i class="fa fa-twitter"></i></a></li>
-                                    <li ><a ><i class="fa fa-linkedin"></i></a></li>
-                                    <li ><a ><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                                <br>
-                                <hr class="separator_mini">
-                            </div>
-                            
-                            <div class="team">
-                                <div class="thumbnail" >
-                                    <img src="images/about_image4.jpg" class="img-rounded-mini" alt="image name" >                        
-                                </div>
-                                
-                                <h4 class="upperCase">Michale clarke</h4>
-                                <h6 ><em><a>Project Manager</a></em></h6>
-                                <p>Lorem ipsum dolor sit amet, fras consectetuer adipiscing.</p>
-                                <ul class="font_awesome">                 
-                                    <li ><a ><i class="fa fa-facebook"></i></a></li>
-                                    <li ><a ><i class="fa fa-twitter"></i></a></li>
-                                    <li ><a ><i class="fa fa-linkedin"></i></a></li>
-                                    <li ><a ><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                                <br>
-                            </div>
-                               
-                        </div>            
-
-                    </div>
-                    
-                    
-                    <!-- tab1_3 content -->
-                    <div class="tab-pane fade" id="tab1_3" >
-                        
-                        <div class="row-fluid">
-                            <div class="span6">
-                            	<h2 >What our client says !</h2>
-                                <hr>
-                                <div class="flexSlideshow slideAnimation right_directnav bottomNav dark_color alignDefault" >
-                                    <ul class="slides"> 
-                                        <li>
-                                            <div class="row-fluid">
-                                                <ul class="thumbnails">
-                                                    <li class="span3"><img src="images/team_img1.jpg" class="img-circle" alt="image name"> </li>
-                                                    <li class="span9">
-                                                    	<h4 >Great Work Forever</h4>
-                                                        <h5 class="tiny_font">Best work ipsum dolor sit amet, consectetuer adipiscing elit dolore magna aliquam erat volutpat. consectetuer adipiscing </h5> 
-                                                        <h6 class="highlight_color"><em>- Mac iev, Rtc -</em></h6>
-                                                    </li>
-                                                </ul>
-                                            </div>                                            
-                                        </li>
-                                        <li>
-                                            <div class="row-fluid">
-                                                <ul class="thumbnails">
-                                                    <li class="span3"><img src="images/team_img2.jpg" class="img-circle" alt="image name"> </li>
-                                                    <li class="span9">
-                                                    	<h4 >It's really a brilliant work</h4>
-                                                        <h5 class="tiny_font">Elit dolore best work ipsum  adipiscing magna aliquam erat volutpa dolor sit amet, consectetuer adipiscing magna aliquam erat volutpat. consectetuer adipiscing </h5>
-                                                        <h6 class="highlight_color"><em>- john Doe, Vptc solution -</em></h6>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="row-fluid">
-                                                <ul class="thumbnails">
-                                                    <li class="span3"><img src="images/team_img3.jpg" class="img-circle" alt="image name"> </li>
-                                                    <li class="span9">
-                                                    	<h4 >Fast and Reliable</h4>
-                                                        <h5 class="tiny_font">Magna best work ipsum dolor sit amet, consectetuer adipiscing elit dolore aliquam erat volutpat. consectetuer adipiscing </h5>
-                                                        <h6 class="highlight_color"><em>- Greece French, Isoftzz Manager -</em></h6>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="span6" >
-                          
-                              <h2>Our Developer Feedback</h2>
-                              <hr>
-                              <!-- Start Accordion 
-                              The attribute data-autoHide is used to close the accordion tab automatically when the user select other tab,
-                              The attribute data-openFirstElement is used to open the first accordion tab when page load
-                              -->
-                              <dl class="accordion" data-autoHide="true" data-openFirstElement="true" >
-                              
-                                  <!-- Accordion tab -->
-                                  <dt>
-                                      <a href="" class="normal"><span class="acc_heading">
-                                          <!-- Heading -->
-                                          <strong>Lisa Stephan - </strong><span class="tiny_font fontFamily_3"><em>Graphic designer</em></span>
-                                      </span></a>
-                                  </dt>
-                                  
-                                      <dd>
-                                          <span class="acc_content">
-                                              <!-- Tab content -->
-                                              <span class="thumbnail mini" >
-                                                  <img src="images/team_img4.jpg" class="img-rounded-mini" alt="image name"> 
-                                              </span>
-                                              <strong>Good and Creative designer.</strong> <br>
-                                              Lorem ipsum dolor sit a m et, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br> 
-                                              set <em><span class="text_highlight">data-autoHide="true" </span></em> and <em><span class="text_highlight">data-openFirstElement="true"</span></em>  to the main accordion class div. 
-                                              Add any number of accordion on same page.
-                                          </span>
-                                      </dd>
-                                      
-                                      
-                                  <!-- Accordion tab -->
-                                  <dt>
-                                      <a href="" class="normal"><span class="acc_heading">
-                                          <!-- Heading -->
-                                          <strong>Rose Mark - </strong><span class="tiny_font fontFamily_3"><em>Front end Developer</em></span>
-                                      </span></a>
-                                  </dt>
-                                      <dd>
-                                          <span class="acc_content">
-                                              <!-- Tab content -->
-                                              <span class="thumbnail mini" >
-                                                  <img src="images/team_img2.jpg" class="img-rounded-mini" alt="image name"> 
-                                              </span>
-                                              Lorem ipsum dolor sit a m et, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. onec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
-                                          </span>
-                                      </dd>
-                                  
-                                  
-                                  <!-- Accordion tab -->
-                                  <dt>
-                                      <a href="" class="normal"><span class="acc_heading">
-                                          <!-- Heading -->
-                                          <strong>John Doe - </strong><span class="tiny_font fontFamily_3"><em>Project Manager</em></span>
-                                      </span></a>
-                                  </dt>
-                                      <dd>
-                                          <span class="acc_content">
-                                              <!-- Tab content -->
-                                              <span class="thumbnail mini" >
-                                                  <img src="images/team_img3.jpg" class="img-rounded-mini" alt="image name"> 
-                                              </span>
-                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique odio, Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus
-                                          </span>
-                                      </dd>
-                                      
-                              </dl>​​   
-                              <!-- End Accordion -->   
-                    
-                        	</div>
-                
-                
-                        </div>
-                    </div>
-                    
-                    
-                    <!-- tab1_4 content -->
-                    <div class="tab-pane fade" id="tab1_4" >
-                    	<div class="row-fluid">
-                        	<div class="span12">
-                        		<h2>Our clients</h2>
-                            	<hr>
-                        	</div>
-                        </div>
-                        
-                        <div class="row">
-                        	<div class="span12">
-                                <ul class="thumbnail_list normal hover_gray hover_alpha" >
-                                    <li class="backGround_light"><a ><img src="images/client1.png" alt="image01" /></a></li>
-                                    <li class="backGround_light"><a ><img src="images/client2.png" alt="image02" /></a></li>
-                                    <li class="backGround_light"><a ><img src="images/client3.png" alt="image03" /></a></li>
-                                    <li class="backGround_light"><a ><img src="images/client4.png" alt="image04" /></a></li>
-                                    <li class="backGround_light"><a ><img src="images/client1.png" alt="image01" /></a></li>
-                                    <li class="backGround_light"><a ><img src="images/client2.png" alt="image02" /></a></li>
-                                    <li class="backGround_light"><a ><img src="images/client3.png" alt="image03" /></a></li>
-                                    <li class="backGround_light"><a ><img src="images/client4.png" alt="image04" /></a></li>
-                                </ul>
-                            </div>
-                        </div>
-					</div>
-                    
-                    
-                    
-                </div>
-                
-                    
-			</div>             
-        </div>
-    </div>
-    
-</div>
-
-
-
-<!-- service page-->
+<!-- Services page-->
 <div data-id="!services" class="contentWrapper  fullHeight backGround lightStyle" >
 
    <hr class="top_space">    
@@ -789,7 +383,7 @@ Page navigation - Use to Scroll the page from section to section
     <div class="container">     	
         <div class="row"> 
 			<div class="span12" >
-				<h1 class="fittext3 white_color">Services - Forever</h1>
+				<h1 class="fittext3 white_color">Complete Website Presence</h1>
             </div>
         </div>
     </div>
@@ -802,11 +396,11 @@ Page navigation - Use to Scroll the page from section to section
                  <div class="span12" >
                  	<!-- Tab navigations -->
                     <ul class="nav-tabs plainTab">
-                      <li class="active"><a href="#tab2_1" data-toggle="tab">What We Do</a></li>
-                      <li><a href="#tab2_2" data-toggle="tab">How We Work</a></li>
-                      <li><a href="#tab2_3" data-toggle="tab">Our Skill</a></li>
-                      <li><a href="#tab2_4" data-toggle="tab">Latest Works</a></li>
-                      <li><a href="#tab2_5" data-toggle="tab">Awards</a></li>
+                      <li class="active"><a href="#tab2_1" data-toggle="tab">new business website</a></li>
+                      <li><a href="#tab2_2" data-toggle="tab">logos, branding, design</a></li>
+                      <li><a href="#tab2_3" data-toggle="tab">online contact</a></li>
+                      <li><a href="#tab2_4" data-toggle="tab">top SEO</a></li>
+                      <li><a href="#tab2_5" data-toggle="tab">secure product purchasing</a></li>
                     </ul>
                  </div>
             </div>
@@ -1441,6 +1035,154 @@ Page navigation - Use to Scroll the page from section to section
 </div>
 
 </div>
+
+   
+
+ <!-- jQuery is just for the demo! Hammer.js works without jQuery :-) -->
+  <!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
+    
+    <script  src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.js"></script>
+    
+    <script data-required="js/hammer.js@2" data-semver="1.0.5" src="js/hammer.js"></script>
+
+
+
+    
+
+<script>
+
+    /**
+    * super simple carousel
+    * animation between panes happens with css transitions
+    */
+    function Carousel(element) {
+        var self = this;
+        element = $(element);
+
+        var container = $(">ul", element);
+        var panes = $(">ul>li", element);
+
+        var pane_width = 0;
+        var pane_count = panes.length;
+
+        var current_pane = 0;
+
+
+        /**
+         * initial
+         */
+        this.init = function () {
+            setPaneDimensions();
+
+            $(window).on("load resize orientationchange", function () {
+                setPaneDimensions();
+            })
+        };
+
+
+        /**
+         * set the pane dimensions and scale the container
+         */
+        function setPaneDimensions() {
+            pane_width = element.width();
+            panes.each(function () {
+                $(this).width(pane_width);
+            });
+            container.width(pane_width * pane_count);
+        };
+
+
+        /**
+         * show pane by index
+         */
+        this.showPane = function (index, animate) {
+            // between the bounds
+            index = Math.max(0, Math.min(index, pane_count - 1));
+            current_pane = index;
+
+            var offset = -((100 / pane_count) * current_pane);
+            setContainerOffset(offset, animate);
+        };
+
+
+        function setContainerOffset(percent, animate) {
+            container.removeClass("animate");
+
+            if (animate) {
+                container.addClass("animate");
+            }
+
+            if (Modernizr.csstransforms3d) {
+                container.css("transform", "translate3d(" + percent + "%,0,0) scale3d(1,1,1)");
+            }
+            else if (Modernizr.csstransforms) {
+                container.css("transform", "translate(" + percent + "%,0)");
+            }
+            else {
+                var px = ((pane_width * pane_count) / 100) * percent;
+                container.css("left", px + "px");
+            }
+        }
+
+        this.next = function () { return this.showPane(current_pane + 1, true); };
+        this.prev = function () { return this.showPane(current_pane - 1, true); };
+
+
+        function handleHammer(ev) {
+            // disable browser scrolling
+            ev.gesture.preventDefault();
+
+            switch (ev.type) {
+                case 'dragright':
+                case 'dragleft':
+                    // stick to the finger
+                    var pane_offset = -(100 / pane_count) * current_pane;
+                    var drag_offset = ((100 / pane_width) * ev.gesture.deltaX) / pane_count;
+
+                    // slow down at the first and last pane
+                    if ((current_pane == 0 && ev.gesture.direction == "right") ||
+                        (current_pane == pane_count - 1 && ev.gesture.direction == "left")) {
+                        drag_offset *= .4;
+                    }
+
+                    setContainerOffset(drag_offset + pane_offset);
+                    break;
+
+                case 'swipeleft':
+                    self.next();
+                    ev.gesture.stopDetect();
+                    break;
+
+                case 'swiperight':
+                    self.prev();
+                    ev.gesture.stopDetect();
+                    break;
+
+                case 'release':
+                    // more then 50% moved, navigate
+                    if (Math.abs(ev.gesture.deltaX) > pane_width / 2) {
+                        if (ev.gesture.direction == 'right') {
+                            self.prev();
+                        } else {
+                            self.next();
+                        }
+                    }
+                    else {
+                        self.showPane(current_pane, true);
+                    }
+                    break;
+            }
+        }
+
+        new Hammer(element[0], { dragLockToAxis: true }).on("release dragleft dragright swipeleft swiperight", handleHammer);
+    }
+
+    var carousel = new Carousel("#carousel");
+    carousel.init();
+
+    </script>
+
+<script type="text/javascript" src="js/retina.js"></script>
 
 </body>
 

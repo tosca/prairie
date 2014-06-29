@@ -186,6 +186,7 @@
     <Content Include="images\background\image2_s.jpg" />
     <Content Include="images\background\image3.jpg" />
     <Content Include="images\background\image3_s.jpg" />
+    <Content Include="images\background\paper-tree-dk.png" />
     <Content Include="images\background_overlay.png" />
     <Content Include="images\bigvideo%402x.png" />
     <Content Include="images\bigvideo.png" />
@@ -299,8 +300,9 @@
     <Content Include="images\overlay_social.png" />
     <Content Include="images\overlay_video.png" />
     <Content Include="images\overlay_zoom.png" />
+    <Content Include="images\parallax\ppc-banner.jpg" />
     <Content Include="images\parallax\ppc-logo-s.jpg" />
-    <Content Include="images\parallax\ppc-logo.jpg" />
+    <Content Include="images\parallax\ppc-banner-s.jpg" />
     <Content Include="images\parallax\ppc-logo.png" />
     <Content Include="images\parallax_overlay.png" />
     <Content Include="images\portfolio\advotek-2.jpg" />
@@ -468,11 +470,14 @@
     <Content Include="images\video_img1.jpg" />
     <Content Include="images\video_over%402x.png" />
     <Content Include="images\video_over.png" />
+    <Content Include="images\web-work\firstcare%402x.jpg" />
+    <Content Include="images\web-work\firstcare.jpg" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\custom.js" />
     <Content Include="js\custom.min.js" />
+    <Content Include="js\hammer.js" />
     <Content Include="js\jflickrfeed.min.js" />
     <Content Include="js\jquery-1.8.2.min.js" />
     <Content Include="js\jquery.elastislide.js" />
@@ -493,6 +498,7 @@
     <Content Include="js\main-fm.min.js" />
     <Content Include="js\portfolio.detail.js" />
     <Content Include="js\portfolio.detail.min.js" />
+    <Content Include="js\retina.js" />
     <Content Include="js\supersized.3.2.7.js" />
     <Content Include="js\supersized.3.2.7.min.js" />
     <Content Include="js\supersized.shutter.js" />
