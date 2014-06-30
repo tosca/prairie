@@ -330,9 +330,7 @@ margin: 0 0 7px 0;
             -webkit-backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
         }
-        #carousel img {
-            margin-top: 20px;
-        }
+        
         #carousel ul {
             -webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
             box-shadow: 0 0 20px rgba(0,0,0,.2);
@@ -358,11 +356,23 @@ margin: 0 0 7px 0;
             width: 100%;
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
+        #carousel img {
+            margin-top: 20px;
+            
+        }
 /* Pane for Retina*/
-.pane1, pane2 {
-    height: 365px;
+.pane1, .pane2 {
+    height: 274px;
 }
+@media only screen and (max-width: 767px) {
+    .pane1, .pane2 {
+        height: 730px;
+    }
 
+    #carousel img {
+       
+    }
+}
 
 /* Footer style*/	
 
@@ -381,9 +391,7 @@ margin: 0 0 7px 0;
 		.menu_footer{
 			padding:50px 10px 0px 10px;
 			}
-        .pane1, pane2 {
-            height: 730px;
-            }
+  
 		}
 		
 /*	Top header / container style	

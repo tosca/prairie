@@ -162,6 +162,7 @@
     <Content Include="fonts\bebasneue-webfont.svg" />
     <Content Include="fonts\droidsans-bold-webfont.svg" />
     <Content Include="fonts\droidsans-webfont.svg" />
+    <Content Include="fonts\Existence-Light.otf" />
     <Content Include="fonts\volkhov-italic-webfont.svg" />
     <Content Include="fonts\volkhov-regular-webfont.svg" />
     <Content Include="Global.asax" />
@@ -575,7 +576,6 @@
     <Content Include="fonts\volkhov-regular-webfont.woff" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\Existence-Light.otf" />
     <Content Include="fonts\Existence-StencilLight.otf" />
     <Content Include="fonts\Existence-UnicaseLight.otf" />
     <Content Include="fonts\OpenSans-Bold.ttf" />
