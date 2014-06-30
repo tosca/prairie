@@ -32,19 +32,19 @@
 
 /* #Typography
 ================================================== */
-	h1, h2, h3{
+	h1, h2 {
 		font-family: 'Existence', 'Trebuchet MS', sans-serif;
 		}
 	
-	h4, h5{
-		font-family: 'Existence', 'Trebuchet MS', sans-serif;
+	h3, h4, h5{
+		font-family: 'OpenSans', 'Trebuchet MS', sans-serif;
 		}
 		
 	h6{ font-family: 'OpenSans', 'Trebuchet MS', sans-serif; }
 	
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	
-	h1 { font: 95px/1; margin: 5% auto 5%; margin-bottom:3%;  }
+	h1 { font: 95px/1; margin: 4% auto 4%; margin-bottom:2%;  }
 	
 	h1, h2 { font-weight: 300; }
 	h3, h4 { font-weight: 300; }

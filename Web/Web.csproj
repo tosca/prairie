@@ -165,10 +165,6 @@
     <Content Include="fonts\volkhov-italic-webfont.svg" />
     <Content Include="fonts\volkhov-regular-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="images\about_image1.jpg" />
-    <Content Include="images\about_image2.jpg" />
-    <Content Include="images\about_image3.jpg" />
-    <Content Include="images\about_image4.jpg" />
     <Content Include="images\accordion_blog_icon%402x.png" />
     <Content Include="images\accordion_blog_icon.png" />
     <Content Include="images\accordion_blog_white_icon%402x.png" />
@@ -464,9 +460,6 @@
     <Content Include="images\supersized\thumb-back.png" />
     <Content Include="images\supersized\thumb-forward.png" />
     <Content Include="images\team_img1.jpg" />
-    <Content Include="images\team_img2.jpg" />
-    <Content Include="images\team_img3.jpg" />
-    <Content Include="images\team_img4.jpg" />
     <Content Include="images\video_img1.jpg" />
     <Content Include="images\video_over%402x.png" />
     <Content Include="images\video_over.png" />

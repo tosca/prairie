@@ -591,7 +591,7 @@
 	
 	$(".fittext1").fitText();
 	$(".fittext2").fitText(1.2);
-	$(".fittext3").fitText(1.1, { minFontSize: '40px', maxFontSize: '75px' });
+	$(".fittext3").fitText(1.1, { minFontSize: '30px', maxFontSize: '50px' });
 	
 // FitVids Initialization
 	try {  $(".container").fitVids(); } catch (e) { }
