@@ -465,6 +465,8 @@
     <Content Include="images\video_over%402x.png" />
     <Content Include="images\video_over.png" />
     <Content Include="images\web-work\firstcare%402x.jpg" />
+    <Content Include="images\web-work\firstcare-dashboard%402x.jpg" />
+    <Content Include="images\web-work\firstcare-dashboard.jpg" />
     <Content Include="images\web-work\firstcare.jpg" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
