@@ -1,0 +1,124 @@
+/*MAIN-BG.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that intializes BG Images used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: EIGHT.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------*/
+/* INTRO / HOME VARIANTS */
+/*--------------------------------------------------------------*/
+
+/*INTRO-01*/
+.showcase-panel-bg-01{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-panel-bg-02{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-panel-bg-03{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-panel-bg-04{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-panel-bg-05{
+	background-image: url('http://placehold.it/2000x1250');
+}
+
+/*INTRO-03*/
+.intro-03-bg{
+	background-image: url('http://placehold.it/2000x1250');
+}
+
+/*INTRO-05*/
+.intro-05-bg{
+	background-image: url('http://placehold.it/2000x1250');
+}
+
+
+/*--------------------------------------------------------------*/
+/* PAGES AND SECTIONS */
+/*--------------------------------------------------------------*/
+
+/*showcaseS*/
+.showcase-01{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-02{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-03{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-04{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-05{
+	background-image: url('http://placehold.it/2000x1250');
+}
+
+/*COVERFLOW*/
+
+.coverflow-bg{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-01{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-02{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-03{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-04{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-05{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-06{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-07{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-08{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-09{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-10{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-11{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-12{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-13{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-14{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-15{
+	background-image: url('http://placehold.it/2000x1250');
+}
+
+/*CONTACT*/
+.contact-bg{
+	background-image: url('http://placehold.it/2000x1250');
+}
+
+/*ABOUT*/
+.about-bg{
+	background-image: url('http://placehold.it/2000x1250');
+}

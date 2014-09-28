@@ -1,0 +1,1282 @@
+/*MAIN-RESPONSIVE.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: EIGHT.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*==========================*/
+/*ALL DEVICE OPTIMIZATION*/
+/*===========================*/
+
+
+/*Huge Displays*/
+@media (min-width: 3000px) {
+}
+
+/*Projector Screens and Ver Large Monitors*/
+@media (min-width: 2561px) {
+}
+
+/*iMac 27, HD Screens and Large Monitors*/
+@media (min-width: 1921px) and (max-width: 2560px) {
+
+}
+
+/*Large Widescreen Monitors*/
+@media (max-width: 1920px) {
+}
+
+/*Medium Widescreen Monitors*/
+@media (max-width: 1680px) {
+}
+
+/*Large Widescreen Laptops*/
+@media (max-width: 1440px) {
+}
+
+/*Common Widescreen Laptops*/
+@media (max-width: 1366px) {
+}
+
+
+/*Very Large Tablets and Medium Laptops*/
+@media (max-width: 1280px) {
+}
+
+/*Notebooks and Small Laptops*/
+@media (max-width: 1199px) {
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px) {
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+}
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 990px) {
+	
+	.container{
+	    max-width: 950px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 24px;
+	    letter-spacing: 2px;
+	    line-height: 31px;
+	}
+	.explore-link a {
+	    font-size: 22px;
+	    letter-spacing: normal;
+	    line-height: 29px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 24px;
+	    letter-spacing: 2px;
+	    line-height: 31px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 22px;
+	    letter-spacing: 2px;
+	    line-height: 29px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 20px;
+	    letter-spacing: normal;
+	    line-height: 27px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+/*Medium Tablets */
+@media (max-width: 800px) {
+	
+	.container{
+	    max-width: 760px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	}
+	.explore-link a {
+	    font-size: 18px;
+	    letter-spacing: normal;
+	    line-height: 25px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 16px;
+	    letter-spacing: normal;
+	    line-height: 23px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px) {
+	
+	.container{
+	    max-width: 728px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	}
+	.explore-link a {
+	    font-size: 18px;
+	    letter-spacing: normal;
+	    line-height: 25px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 16px;
+	    letter-spacing: normal;
+	    line-height: 23px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+/*iPhone 6Plus Landscape Mode*/
+@media screen and (max-width: 736px) {
+	
+	.container{
+	    max-width: 696px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	}
+	.explore-link a {
+	    font-size: 18px;
+	    letter-spacing: normal;
+	    line-height: 25px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 16px;
+	    letter-spacing: normal;
+	    line-height: 23px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+/*iPhone 6 Landscape Mode*/
+@media screen and (max-width: 667px) {
+	
+	.container{
+	    max-width: 627px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	}
+	.explore-link a {
+	    font-size: 18px;
+	    letter-spacing: normal;
+	    line-height: 25px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    line-height: 27px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 16px;
+	    letter-spacing: normal;
+	    line-height: 23px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px) {
+	
+	.container{
+	    max-width: 600px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	}
+	.explore-link a {
+	    font-size: 16px;
+	    letter-spacing: normal;
+	    line-height: 23px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 14px;
+	    letter-spacing: normal;
+	    line-height: 21px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+	
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px)  {
+	
+	.container{
+	    max-width: 560px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	}
+	.explore-link a {
+	    font-size: 16px;
+	    letter-spacing: normal;
+	    line-height: 23px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 14px;
+	    letter-spacing: normal;
+	    line-height: 21px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+	
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+	
+	.container{
+	    max-width: 440px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	}
+	.explore-link a {
+	    font-size: 16px;
+	    letter-spacing: normal;
+	    line-height: 23px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 25px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 14px;
+	    letter-spacing: normal;
+	    line-height: 21px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+
+/*iPhone 6Plus Portrait Mode*/
+@media screen and (max-width: 414px) {
+	
+	.container{
+	    max-width: 384px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	}
+	.explore-link a {
+	    font-size: 14px;
+	    letter-spacing: normal;
+	    line-height: 21px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 23px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 12px;
+	    letter-spacing: normal;
+	    line-height: 19px;
+	}
+	.sub-heading, .intro-03 .promo-caps,.about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 16px;
+	    line-height: 23px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	    line-height: 19px;
+	}
+	.works-item{
+		width: 50% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+
+/*iPhone 6 Portrait Mode*/
+@media screen and (max-width: 375px) {
+	
+	.container{
+	    max-width: 355px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	}
+	.explore-link a {
+	    font-size: 12px;
+	    letter-spacing: normal;
+	    line-height: 19px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	    line-height: 19px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 10px;
+	    letter-spacing: normal;
+	    line-height: 17px;
+	}
+	.sub-heading, .intro-03 .promo-caps, .about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 10px;
+	    letter-spacing: 2px;
+	    line-height: 17px;
+	}
+	.works-item{
+		width: 100% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px) {
+	
+	.container{
+	    max-width: 320px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	}
+	.explore-link a {
+	    font-size: 12px;
+	    letter-spacing: normal;
+	    line-height: 19px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	    line-height: 19px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 10px;
+	    letter-spacing: normal;
+	    line-height: 17px;
+	}
+	.sub-heading, .intro-03 .promo-caps, .about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 10px;
+	    letter-spacing: 2px;
+	    line-height: 17px;
+	}
+	.works-item{
+		width: 100% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+/*iPhone (5S, 5, 4S and 4) Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+	
+	.container{
+	    max-width: 280px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.common-pad{
+		padding: 80px 20px;
+	}
+	.mastwrap{
+		padding-top: 48px;
+	}
+	.sticky-panel{
+		display: none;
+	}
+	.showcase-panel h1 > span {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	}
+	.explore-link a {
+	    font-size: 12px;
+	    letter-spacing: normal;
+	    line-height: 19px;
+	}
+	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	    line-height: 21px;
+	    text-align: center;
+	}
+	.intro-04 .promo-caps > span{
+		border-left: none;
+	}
+	#slide-title {
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	    line-height: 19px;
+	}
+	.intro-02-wrap{
+		margin: 0;
+	}
+	.intro-02-wrap .works-item {
+	    margin: 0.2% !important;
+	    padding: 0 !important;
+	    width: 49.6% !important;
+	}
+	.works-item-inner h3, .works-item-inner p > span{
+	    font-size: 10px;
+	    letter-spacing: normal;
+	    line-height: 17px;
+	}
+	.sub-heading, .intro-03 .promo-caps, .about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
+	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+	.showcases-overlay h1 > span {
+	    font-size: 10px;
+	    letter-spacing: 2px;
+	    line-height: 17px;
+	}
+	.works-item{
+		width: 100% !important;
+	}
+	.social-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+
+

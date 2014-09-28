@@ -1,0 +1,11 @@
+.intro-02-wrap{
+	margin-top: 20px;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.intro-02-wrap .works-item {
+  margin: 0.2% !important;
+  padding: 0 !important;
+  width: 24.5% !important;
+}

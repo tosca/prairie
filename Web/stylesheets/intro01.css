@@ -1,0 +1,73 @@
+.intro-01{
+	
+}
+.showcase-panel{
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.showcase-panel-overlay{
+	-webkit-transition: all 1s ease-in-out;
+	   -moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		 -o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+}
+.showcase-panel-overlay:hover{
+	background-color: rgba(0,0,0,0.7);
+	-webkit-transition: all 1s ease-in-out;
+	   -moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		 -o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+}
+.showcase-panel h1{
+	margin-bottom: 40px;
+}
+.showcase-panel h1>span{
+	font-size: 32px;
+	line-height: 39px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	border:solid 5px;
+	padding: 15px 15px 15px 23px;
+}
+.showcase-panel h2{
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 200;
+	margin-bottom: 20px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.explore-link{
+}
+.explore-link a{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.explore-link a:before{
+	content: '';
+	height: 1px;
+	width: 30px;
+	background: #fff;
+	display: inline-block;
+	position: absolute;
+	bottom: 12px;
+	margin-left: -40px;
+}
+.explore-link a:after{
+	content: '';
+	height: 1px;
+	width: 30px;
+	background: #fff;
+	display: inline-block;
+	position: absolute;
+	bottom: 12px;
+	margin-left: 10px;
+}
