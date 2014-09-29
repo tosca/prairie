@@ -214,7 +214,7 @@
     <Content Include="index05.html" />
     <Content Include="index06.html" />
     <Content Include="index07.html" />
-    <Content Include="index08.html" />
+    <Content Include="index.html" />
     <Content Include="javascripts\custom\bgslider-zoom-init.js" />
     <Content Include="javascripts\custom\bgvimeo-init.js" />
     <Content Include="javascripts\custom\bgyoutube-init.js" />
@@ -260,6 +260,7 @@
     <Content Include="javascripts\libs\venobox.min.js" />
     <Content Include="javascripts\libs\waypoints.min.js" />
     <Content Include="javascripts\libs\wow.js" />
+    <Content Include="less\.DS_Store" />
     <Content Include="less\less-1.7.3.min.js" />
     <Content Include="Mail\mail.php" />
     <Content Include="Mail\mime.php" />
@@ -325,31 +326,18 @@
     <Content Include=".htaccess" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".DS_Store" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="stylesheets\.DS_Store" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="javascripts\.DS_Store" />
     <Content Include="javascripts\custom\.DS_Store" />
     <Content Include="javascripts\libs\.DS_Store" />
-    <Content Include="less\.DS_Store" />
     <Content Include="less\color.less" />
     <Content Include="less\fonts.less" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootstrap\.DS_Store" />
-    <Content Include="bootstrap\css\.DS_Store" />
     <Content Include="bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="bootstrap\css\bootstrap.css.map" />
-    <Content Include="bootstrap\fonts\.DS_Store" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="bootstrap\js\.DS_Store" />
-    <Content Include="fonts\.DS_Store" />
-    <Content Include="images\.DS_Store" />
     <Content Include="images\bxslider\.DS_Store" />
     <Content Include="images\favicon\.DS_Store" />
     <Content Include="images\icons\.DS_Store" />
