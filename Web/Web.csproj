@@ -260,7 +260,6 @@
     <Content Include="javascripts\libs\venobox.min.js" />
     <Content Include="javascripts\libs\waypoints.min.js" />
     <Content Include="javascripts\libs\wow.js" />
-    <Content Include="less\.DS_Store" />
     <Content Include="less\less-1.7.3.min.js" />
     <Content Include="Mail\mail.php" />
     <Content Include="Mail\mime.php" />
@@ -326,8 +325,6 @@
     <Content Include=".htaccess" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="javascripts\custom\.DS_Store" />
-    <Content Include="javascripts\libs\.DS_Store" />
     <Content Include="less\color.less" />
     <Content Include="less\fonts.less" />
   </ItemGroup>
@@ -337,12 +334,6 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="images\bxslider\.DS_Store" />
-    <Content Include="images\favicon\.DS_Store" />
-    <Content Include="images\icons\.DS_Store" />
-    <Content Include="images\social\.DS_Store" />
-    <Content Include="images\touchicon\.DS_Store" />
-    <Content Include="images\venobox\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="twitter\.DS_Store" />
