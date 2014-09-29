@@ -337,7 +337,6 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="bootstrap\js\.DS_Store" />
     <Content Include="images\bxslider\.DS_Store" />
     <Content Include="images\favicon\.DS_Store" />
     <Content Include="images\icons\.DS_Store" />
