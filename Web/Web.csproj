@@ -403,6 +403,14 @@
     <Content Include="images\wall\wall5.jpg" />
     <Content Include="images\wall\wall6%402x.jpg" />
     <Content Include="images\wall\wall6.jpg" />
+    <Content Include="images\works\image0%402x.jpg" />
+    <Content Include="images\works\image0.jpg" />
+    <Content Include="images\works\image2%402x.jpg" />
+    <Content Include="images\works\image2.jpg" />
+    <Content Include="images\works\image3%402x.jpg" />
+    <Content Include="images\works\image3.jpg" />
+    <Content Include="images\works\image4%402x.jpg" />
+    <Content Include="images\works\image4.jpg" />
     <Content Include="images\zoom%402x.png" />
     <Content Include="images\zoom.png" />
     <Content Include="index01.html" />
