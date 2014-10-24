@@ -268,8 +268,8 @@
     <Content Include="images\drawing2014\image8.jpg" />
     <Content Include="images\drawing2014\image9%402x.jpg" />
     <Content Include="images\drawing2014\image9.jpg" />
-    <Content Include="images\favicon\favicon.ico" />
     <Content Include="images\favicon\favicon.png" />
+    <Content Include="images\favicon\favicon.ico" />
     <Content Include="images\home_slider\hyatt%402x.jpg" />
     <Content Include="images\home_slider\hyatt-s%402x.jpg" />
     <Content Include="images\home_slider\hyatt-s.jpg" />
