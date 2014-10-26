@@ -115,10 +115,15 @@
 
 /*CONTACT*/
 .contact-bg{
-	background-image: url('../images/background/bendwood.jpg');
+	background-image: url('../images/background/bending-3.jpg');
 }
-
+/*STUDIO*/
+.studio-bg {
+background-image: url('../images/background/bendwood.jpg');
+}
 /*ABOUT*/
 .about-bg{
-	background-image: url('../images/background/image1_s.jpg');
+	background-color:#ebebeb;
+    background-color:#c87432;
+
 }

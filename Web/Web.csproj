@@ -157,6 +157,9 @@
     <Content Include="fonts\fonts.css" />
     <Content Include="Global.asax" />
     <Content Include="hamburger.html" />
+    <Content Include="images\apple-touch-icon-114x114.png" />
+    <Content Include="images\apple-touch-icon-72x72.png" />
+    <Content Include="images\apple-touch-icon.png" />
     <Content Include="images\artist\bending-s.jpg" />
     <Content Include="images\artist\bending.jpg" />
     <Content Include="images\artist\bowman%402x.jpg" />
@@ -172,6 +175,9 @@
     <Content Include="images\artist\Rick-signature.jpg" />
     <Content Include="images\artist\RMportrait%402x.jpg" />
     <Content Include="images\artist\RMportrait.jpg" />
+    <Content Include="images\background\bending-1.jpg" />
+    <Content Include="images\background\bending-2.jpg" />
+    <Content Include="images\background\bending-3.jpg" />
     <Content Include="images\background\bendwood.jpg" />
     <Content Include="images\background\bendwood_s.jpg" />
     <Content Include="images\background\image1-a_s.jpg" />
