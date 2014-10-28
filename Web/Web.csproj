@@ -185,8 +185,6 @@
     <Content Include="images\background\image1_s.jpg" />
     <Content Include="images\bentwood\image0%402x.jpg" />
     <Content Include="images\bentwood\image0.jpg" />
-    <Content Include="images\bentwood\image1%402x.jpg" />
-    <Content Include="images\bentwood\image1.jpg" />
     <Content Include="images\bentwood\image10%402x.jpg" />
     <Content Include="images\bentwood\image10.jpg" />
     <Content Include="images\bentwood\image11%402x.jpg" />
@@ -484,6 +482,7 @@
     <Content Include="news-post.html" />
     <Content Include="news.html" />
     <Content Include="portfolio-grid.html" />
+    <Content Include="portfolio-masonry-1026.html" />
     <Content Include="portfolio-masonry.html" />
     <Content Include="sendcontact.php" />
     <Content Include="stylesheets\albums.css" />
