@@ -525,8 +525,12 @@
     <Content Include=".htaccess" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="less\color.less" />
-    <Content Include="less\fonts.less" />
+    <Content Include="less\color.less">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="less\fonts.less">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap\css\bootstrap-theme.css.map" />
