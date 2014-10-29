@@ -153,6 +153,7 @@
     <Content Include="contact.html" />
     <Content Include="error404.html" />
     <Content Include="featured-single-old.html" />
+    <Content Include="images\logo%402x.png" />
     <Content Include="studio.html" />
     <Content Include="fonts\fonts.css" />
     <Content Include="Global.asax" />
