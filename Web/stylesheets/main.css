@@ -633,7 +633,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .works-item {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 1px !important;
   width: 33.3% !important;
 }
        .works-item a{
@@ -763,7 +763,7 @@ h1,h2,h3,h4,h5,h6{
                     transition: all .4s ease-in-out;
 }
 .showcase-thumb-strip img {
-   padding-bottom: 4px;
+   padding: 1px;
 }
 
 /*CONTACT*/
