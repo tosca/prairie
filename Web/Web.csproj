@@ -153,6 +153,8 @@
     <Content Include="contact.html" />
     <Content Include="error404.html" />
     <Content Include="featured-single-old.html" />
+    <Content Include="images\artist\RM-logo%402x.png" />
+    <Content Include="images\artist\RM-logo.png" />
     <Content Include="images\logo%402x.png" />
     <Content Include="images\studio\rick-work%402x.jpg" />
     <Content Include="images\studio\rick-work.jpg" />
