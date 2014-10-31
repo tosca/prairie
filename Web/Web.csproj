@@ -154,6 +154,8 @@
     <Content Include="error404.html" />
     <Content Include="featured-single-old.html" />
     <Content Include="images\logo%402x.png" />
+    <Content Include="images\studio\rick-work%402x.jpg" />
+    <Content Include="images\studio\rick-work.jpg" />
     <Content Include="studio.html" />
     <Content Include="fonts\fonts.css" />
     <Content Include="Global.asax" />
